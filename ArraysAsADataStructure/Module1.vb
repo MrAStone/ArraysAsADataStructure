@@ -7,8 +7,14 @@
         Dim yetAnotherArray = New Integer() {9, 8, 7, 6, 5, 4, 3, 2, 1}
 
         For i = 0 To myArray.Length - 1
-            myArray(i) = i
+            Console.Write("Enter a number: ")
+            myArray(i) = Console.ReadLine
         Next
+
+        For i = 0 To myArray.Length - 1
+            Console.WriteLine(myArray(i))
+        Next
+
 
     End Sub
 
